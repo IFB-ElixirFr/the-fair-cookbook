@@ -13,6 +13,12 @@
 :recipe_name: FAIR-Checker tool
 ```` 
 
+## Abstract
+
+FAIR-Checker is a web tool to mine and analyze machine readable metadata found in web pages.
+
+In this recipe, you will learn how to use FAIR-Checker to i) evaluate FAIR maturity indicators for your web resource, ii) inspect the metadata content of your resource. Finally, in iii) you will go through an executable Jupyter notebook intended to demonstrate how RDF metadata can be extracted and queried. This may allow you to extend computational assessments for your specific community needs. 
+
 
 ## Ingredients
 	
@@ -39,7 +45,8 @@
 | <!-- TODO add a link to corresponding document -->  | <!-- TODO add a link to corresponding document --> | <!-- TODO add a link to corresponding document --> |
 | <!-- TODO add a link to corresponding document -->  | <!-- TODO add a link to corresponding document --> | <!-- TODO add a link to corresponding document --> |
 
-        
+
+
 
 ## Objectives
 FAIR-Checker leverages Semantic Web  technologies (RDF, SPARQL, SHACL) to mine and analyze machine readable metadata found in web pages.
@@ -53,8 +60,9 @@ This tool has two main facets:
 
 ### The "Check" module
 
-#### Providing a URL and launching the FAIR assessment
-- Provide the URL of your web resource. Please note that FAIR-Checker only accepts URLs or DOI. This ensures that the F1A principle is automatically verified (Your resource has a unique identifier)
+#### Providing a resource identifier and launching the FAIR assessment
+- Provide the identifier of your web resource. Please note that FAIR-Checker only accepts URLs or DOI as identifiers. This ensures that the F1A principle is automatically verified (Your resource has a unique identifier). Note also that examples of web resources are provided below the text field.
+
 - Launch evaluation by clicking on the "Test All Metrics" button. This will launch the execution of 13 individual tests described in the table below (Description button provides more information about eah test).
 
 
@@ -77,10 +85,15 @@ the [FAIR-Checker](https://https://fair-checker.france-bioinformatique.fr) home 
 ## Step by Step metadata inspecting
 
 ### The "Inspect" module
+<!--TODO--> 
 #### Retrieving embedded metadata
+<!--TODO--> 
 #### Enriching metadata from public Knowledge Graphs
+<!--TODO--> 
 #### Assessing used ontologies
+<!--TODO--> 
 #### Evaluating candidate Bioschemas profiles
+<!--TODO--> 
 
 ## Step by Step metadata inspecting in Python 
 In this section we will provide code snippets to showcase how these assesment are computed. 
